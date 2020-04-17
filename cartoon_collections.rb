@@ -13,10 +13,10 @@ planeteer.length > 4
   end
   planeteer.any? do |planeteer|
     planeteer.length > 4
-  end 
-end 
+  end
+end
 
 def find_the_cheese(cheese_types)
-cheese_types.include?("cheddar") 
-cheese_types = ["cheddar", "gouda", "camembert"]
-end
+  cheese_types = ["cheddar", "gouda", "camembert"]
+cheese_types.include?("cheddar")
+  end
