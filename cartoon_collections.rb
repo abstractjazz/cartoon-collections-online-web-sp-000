@@ -23,4 +23,3 @@ if array.include?(cheese_types) == false
 else
   array.detect do |cheese|
     end
-  end
