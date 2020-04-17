@@ -16,7 +16,9 @@ planeteer.length > 4
   end 
 end 
 
-def find_the_cheese# code an argument here
+def find_the_cheese(cheese_types)
+cheese_types.include?("cheddar")
+cheese_types.include? 
 
-  cheese_types = ["cheddar", "gouda", "camembert"]
+cheese_types = ["cheddar", "gouda", "camembert"]
 end
