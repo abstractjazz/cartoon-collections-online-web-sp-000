@@ -21,4 +21,3 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 array.detect {|cheese| cheese = "cheddar"}
 array.include?!(cheese_types)
   end
-end
