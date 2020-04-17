@@ -18,11 +18,11 @@ end
 
 def find_the_cheese(array)
 cheese_types = ["cheddar", "gouda", "camembert"]
-array.detect do |cheese| 
+array.detect do |cheese|
   cheese == "cheddar"
-  end 
+  end
 if array.include?(cheese_types) == false
   return nil
-else 
+else
     end
   end
