@@ -20,6 +20,5 @@ def find_the_cheese(cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
 cheese_types.detect do |cheese|
   cheese == "cheddar"
-end
-cheese_types.include?("rosemary")
+  end
 end
