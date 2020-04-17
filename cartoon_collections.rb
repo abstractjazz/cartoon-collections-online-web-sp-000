@@ -16,10 +16,10 @@ planeteer.length > 4
   end
 end
 
-def find_the_cheese(cheese_types)
+def find_the_cheese(array)
 cheese_types = ["cheddar", "gouda", "camembert"]
-cheese_types.detect {|cheese| cheese == "cheddar"}
-if cheese_types.include? == false
+array.detect {|cheese| cheese == "cheddar"}
+if array.include?(cheese_types) == false
   return nil
 else 
     end
