@@ -21,6 +21,7 @@ cheese_types = ["cheddar", "gouda", "camembert"]
 cheese_types.detect {|cheese| cheese == "cheddar"}
 if cheese_types.include == false
   return nil
-    end 
-  end 
-end 
+else 
+    end
+  end
+end
