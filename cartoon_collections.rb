@@ -23,5 +23,6 @@ def find_the_cheese(cheese_types)
     cheese_types.detect do |cheese|
 else
     not_cheese_types.include?(cheese)
+    end
   end
-end
+end 
