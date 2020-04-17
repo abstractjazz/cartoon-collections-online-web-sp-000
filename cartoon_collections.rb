@@ -24,4 +24,3 @@ if cheese_types.include == false
 else 
     end
   end
-end
