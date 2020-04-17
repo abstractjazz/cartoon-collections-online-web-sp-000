@@ -22,4 +22,6 @@ if array.include?(cheese_types) == false
   return nil
 else
   array.detect do |cheese|
+      end
     end
+end 
