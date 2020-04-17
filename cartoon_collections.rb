@@ -22,5 +22,4 @@ cheese_types.detect do |cheese|
   cheese == "cheddar"
 end
 cheese_types.include?("rosemary")
-  end
-end 
+end
