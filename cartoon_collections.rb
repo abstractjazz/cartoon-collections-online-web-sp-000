@@ -17,8 +17,9 @@ planeteer.length > 4
 end
 
 def find_the_cheese(cheese_types)
+  not_cheese_types = ["garlic", "rosemary", "bread"]
   cheese_types = ["cheddar", "gouda", "camembert"]
     cheese_types.detect do |cheese|
-    cheese_types.include?(cheese)
+    not_cheese_types.include?(cheese)
   end
 end
