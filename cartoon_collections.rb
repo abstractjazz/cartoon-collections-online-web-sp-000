@@ -11,6 +11,8 @@ def long_planeteer_calls(planeteer)# code an argument here
 planeteer.all? do |planeteer|
 planeteer.length > 4
   end
+  planeteer.any? do |planeteer|
+    planeteer.length > 4
 end 
 
 def find_the_cheese# code an argument here
