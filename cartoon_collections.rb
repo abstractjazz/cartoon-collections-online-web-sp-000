@@ -16,7 +16,7 @@ planeteer.length > 4
   end
 end
 
-def find_the_cheese(array)
+def find_the_cheese(cheese_types)
 cheese_types = ["cheddar", "gouda", "camembert"]
-array.detect {|cheese| cheese == "cheddar"}
+cheese_types.detect {|cheese| cheese == "cheddar"}
   end
